@@ -1,0 +1,393 @@
+/********************************************************************************************
+Copyright (c) 2009, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.net/yui/license.txt
+version: 2.7.0
+
+ YUI Reset
+ @module reset
+ @namespace
+ @requires 
+********************************************************************************************/
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&subset=japanese");
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  /*vertical-align: baseline;*/
+  /*background: transparent;*/ }
+
+body {
+  line-height: 1; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+ul, li {
+  list-style: none; }
+
+input, button, textarea {
+  margin: 0;
+  padding: 0; }
+
+input, select {
+  vertical-align: middle; }
+
+input, button, textarea, select, optgroup, option {
+  z-index: auto;
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit; }
+
+/*@purpose To enable resizing for IE */
+/*@branch For IE6-Win, IE7-Win */
+input, button, textarea, select {
+  *font-size: 100%; }
+
+pre, code, kbd, samp, tt {
+  font-family: monospace;
+  *font-size: 108%;
+  line-height: 100%; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  /*
+  border-collapse: collapse;
+  border-spacing: 0;
+*/ }
+
+caption, th {
+  text-align: left; }
+
+fieldset {
+  border: 0; }
+
+address, caption, cite, code, dfn, em, strong, th, var, optgroup {
+  z-index: auto;
+  font-style: inherit;
+  font-weight: inherit; }
+
+del {
+  text-decoration: none;
+  text-decoration: line-through; }
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none; }
+
+abbr, acronym {
+  border: 0;
+  font-variant: normal; }
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help; }
+
+sup, sub {
+  vertical-align: baseline; }
+
+/*because legend doesn't inherit in IE */
+legend {
+  color: #000; }
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold; }
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0; }
+
+a {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+img {
+  border: 0px;
+  color: #fff;
+  background: transparent;
+  /*vertical-align: bottom;*/ }
+
+@media screen and (max-width: 1024px) {
+  /* for desktop */ }
+
+@media screen and (max-width: 768px) {
+  /* for tablet */ }
+
+@media screen and (max-width: 414px) {
+  /* for mobile */ }
+
+@media screen and (max-width: 360px) {
+  /* for mobile_sm */ }
+
+/* =============================================================
+
+    Base
+
+* ============================================================= */
+@font-face {
+  font-family: "Yu Gothic";
+  src: local("Yu Gothic Medium");
+  font-weight: 100; }
+
+@font-face {
+  font-family: "Yu Gothic";
+  src: local("Yu Gothic Medium");
+  font-weight: 200; }
+
+@font-face {
+  font-family: "Yu Gothic";
+  src: local("Yu Gothic Medium");
+  font-weight: 300; }
+
+@font-face {
+  font-family: "Yu Gothic";
+  src: local("Yu Gothic Medium");
+  font-weight: 400; }
+
+@font-face {
+  font-family: "Yu Gothic";
+  src: local("Yu Gothic Bold");
+  font-weight: bold; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: inherit;
+  font-size: 1.4rem;
+  font-weight: 400;
+  -webkit-font-feature-settings: 'palt' 1;
+  font-feature-settings: 'palt' 1;
+  -webkit-font-kerning: auto;
+  font-kerning: auto;
+  font-display: swap;
+  text-rendering: optimizeLegibility;
+  letter-spacing: 0.04em;
+  line-height: 1.75;
+  -webkit-text-size-adjust: 100%; }
+  @media screen and (max-width: 768px) {
+    body {
+      font-size: 1.3rem; } }
+  @media screen and (max-width: 414px) {
+    body {
+      font-size: 1.2rem; } }
+
+a {
+  text-decoration: underline;
+  color: #4C9689; }
+  a:hover {
+    text-decoration: none;
+    color: #4C9689; }
+
+.commentContainer {
+  position: relative;
+  min-width: 1024px; }
+  @media screen and (max-width: 768px) {
+    .commentContainer {
+      min-width: auto; } }
+
+.commentContainer.-no-top-space {
+  padding-top: 0; }
+
+.commentContainer.-black {
+  position: relative;
+  background-color: #333; }
+
+.button {
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 4px;
+  display: block;
+  padding: .8em 2em;
+  font-size: 1.6rem;
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all .3s ease-out;
+  -o-transition: all .3s ease-out;
+  transition: all .3s ease-out; }
+  @media screen and (max-width: 768px) {
+    .button {
+      font-size: 1.5rem; } }
+  @media screen and (max-width: 414px) {
+    .button {
+      font-size: 1.3rem; } }
+
+.button:before {
+  border-top-width: 2px;
+  border-top-style: solid;
+  border-right-width: 2px;
+  border-right-style: solid;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  content: "";
+  display: block;
+  width: 8px;
+  height: 8px;
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+  top: 0;
+  right: 2em;
+  bottom: 0;
+  margin: auto 0;
+  -webkit-transition: all .3s ease-out;
+  -o-transition: all .3s ease-out;
+  transition: all .3s ease-out; }
+  @media screen and (max-width: 414px) {
+    .button:before {
+      width: 5px;
+      height: 5px;
+      right: .6em; } }
+
+.button.-default {
+  background-color: #4C9689;
+  border-color: #4C9689;
+  color: #fff; }
+
+.button.-default:before {
+  border-top-color: #fff;
+  border-right-color: #fff; }
+
+.button.-default:hover {
+  background-color: #fff;
+  color: #4C9689; }
+
+.button.-default:hover:before {
+  border-color: #4C9689; }
+
+.commentInner {
+  width: 100%;
+  max-width: 1040px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 50px 50px;
+  margin: auto; }
+  @media screen and (max-width: 414px) {
+    .commentInner {
+      padding: 30px 20px; } }
+
+.commentTitle {
+  width: 100%;
+  font-size: 1.4rem;
+  font-weight: bold;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1em; }
+
+.commentEmoji {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: .4em 0 2em; }
+  .commentEmoji__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 1.6em;
+    padding: 0 0 0 .5em;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+    .commentEmoji__item img {
+      width: 1.5vw;
+      min-width: 18px;
+      max-width: 72px;
+      display: block;
+      line-height: 0;
+      margin: 0 .3em; }
+    .commentEmoji__item span {
+      font-size: 1.2rem;
+      line-height: 1.2; }
+
+.commentText textarea {
+  -webkit-appearance: none; }
+
+.commentText__box {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  max-width: 100%;
+  height: 8em;
+  line-height: 1.5;
+  border: 1px solid #ccc; }
+
+.commentText__annotation {
+  font-size: 1.2rem; }
+
+.commentButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 1.6em 0; }
+  .commentButton .button {
+    width: 20em;
+    margin: .4em;
+    cursor: pointer; }
+  .commentButton input[type="submit"] {
+    -webkit-appearance: none; }

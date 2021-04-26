@@ -1,0 +1,5 @@
+TOPページでの緊急掲示板
+http://cgi3-aws.hondanet.co.jp/hcBbs/api/emergency-bulletin/index?hansha_code=8812701&show_type=json&page_num=1&content_length=40
+
+緊急掲示板詳細ページ
+http://cgi3-aws.hondanet.co.jp/hcBbs/api/emergency-bulletin/detail?hansha_code=8812701&page_num=20

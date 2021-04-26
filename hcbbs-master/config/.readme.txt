@@ -1,0 +1,15 @@
+[app.php]
+主にApp\Providersの指定
+
+[auth.php]
+'model' => 'App\Models\UserAccount',
+'table' => 'tb_user_account',
+を指定
+
+[database.php]
+DBへの接続設定を指定
+
+[view.php]
+// スマホ用のテンプレートのパス
+'sp_path' => realpath(base_path('resources/views/sp')),
+テンプレートの読み込み先の追加分を指定

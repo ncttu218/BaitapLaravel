@@ -1,0 +1,360 @@
+/*----------------------------------------------------
+ RESET 
+----------------------------------------------------*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+	margin: 0;
+	padding: 0;
+	}
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-style: normal;
+	}
+h1,h2,h3,h4,h5,h6 {
+	font-size: 100%;
+	}
+img,abbr,acronym,fieldset {
+	border: 0;
+	}
+li {
+	list-style-type: none;
+	}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	}
+td {
+	padding: 0;
+	}
+caption,th {
+	text-align: left;
+	}
+
+
+/*----------------------------------------------------
+ BASIC 
+----------------------------------------------------*/
+body {
+	margin: 0px auto;
+	padding: 0px;
+	color: #666;
+	font-size: small;
+	text-align: center;
+	background-image:url(../img/takasaki-higashi/bg.gif);
+	font-family: verdana,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"ＭＳ Ｐゴシック","MS PGothic",Sans-Serif;
+	}
+.center {
+	text-align: center;
+	}
+.clear {
+	clear: both;
+	}
+.red {
+	color: #c00;
+	}
+.mp0 {
+	margin: 0px;
+	padding: 0px;
+	}
+
+a:link,a:visited {
+	color: #999;
+	text-decoration: none;
+	}
+a:hover {
+	color: #666;
+	text-decoration: none;
+	}
+
+
+/*----------------------------------------------------
+ LAYOUT
+----------------------------------------------------*/
+#wrap {
+	margin: 0 auto;
+	padding: 0;
+	background-color: #fff;
+	border-left: #CCC solid 1px;	
+	border-right: #CCC solid 1px;
+	}
+
+
+/*----------------------------------------------------
+ HEADER
+----------------------------------------------------*/
+#header {
+	margin:0;
+	background-image:url(../img/takasaki-higashi/h_bg.gif);
+	height:72px;
+	}
+#main_title{
+	float: left;
+	margin: 26px 0 0 16px;
+	}
+#logo{
+	float: right;
+	margin: 28px 20px 0 0;
+	_margin: 28px 10px 0 0;
+	font-size: 16px;
+	color: #666;
+	font-weight:bold;
+	}
+#top_bg{
+	background: url(../img/takasaki-higashi/bg_edge.gif) repeat-y 0 0 #fff;
+	width: 870px;
+	}
+#ask{
+	float: right;
+	margin: 0 32px 0 0; 
+	_margin: 0 16px 0 0;
+	}
+
+#header2nd {
+	margin: 15px 60px 0;
+	height: 62px;
+	width: 84%;
+	}
+#header2nd_title {
+	padding: 5px 0 0 5px;
+	vertical-align: top;
+	text-align: left;
+	background: url(../img/takasaki-higashi/t6_01.gif) no-repeat 0 0;
+	color: #666;
+	font-size: large;
+	font-weight: bold;
+	width: 100%;
+	}
+	
+#search {
+	margin: 0 auto;
+	width: 82%;
+	text-align: left;
+	}
+#search_caption {
+	margin: 0;
+	font-size: x-small;
+	}
+
+#title {
+	margin: 10px 0;
+	text-align: center;
+	}
+
+
+/*----------------------------------------------------
+ SECTION
+----------------------------------------------------*/
+.section {
+	margin: 5px 60px;
+	_margin: 10px 60px;
+	border: #ccc 1px solid;
+	text-align: left;
+	width:830px;
+	}
+#section_head {
+	border-left: #666 5px solid;
+	}
+#section_head_message {
+	float: left;
+	margin: 5px;
+	}
+#section_head_day {
+	float: right;
+	margin: 2px;
+	padding: 0;
+	width: 400px;
+	text-align: right;
+	padding: 0 6px 0 0;
+	_padding: 3px 6px 0 0;
+	}
+#section_head_title {
+	clear: both;
+	margin: 3px 0 0;
+	padding: 6px 0 6px 6px;
+	_padding: 4px 0 6px 6px;
+	background-color: #eee;
+	font-size: 14px;
+	color: #666;
+	font-weight: bold;
+	}
+
+.entry {
+	margin: 0;
+	padding: 14px 8px 10px 20px;
+	_padding: 14px 9px 10px 10px;
+	border-left: #ccc 5px solid;
+	}
+.entry2{
+	margin: 0;
+	padding: 14px 13px 10px 20px;
+	_padding: 14px 11px 10px 17px;
+	border-left: #ccc 5px solid;
+	}
+	
+.entry3 {
+	margin: 0;
+	padding: 14px 8px 10px 20px;
+	_padding: 14px 9px 10px 19px;
+	border-left: #ccc 5px solid;
+	}
+.entry4{
+	margin: 0;
+	padding: 14px 20px 10px 20px;
+	_padding: 14px 16px 10px 17px;
+	border-left: #ccc 5px solid;
+	}
+.entry5 {
+	margin: 0;
+	padding: 14px 8px 14px 20px;
+	_padding: 14px 9px 14px 16px;
+	border-left: #ccc 5px solid;
+	}
+	
+.entry6 {
+	margin: 0;
+	padding: 8px 8px 14px 20px;
+	_padding: 8px 9px 14px 16px;
+	border-left: #ccc 5px solid;
+	color:#CC0000;
+	text-decoration:underline;
+	}
+.entry .entry_img img {
+	margin: 5px;
+	}
+
+.entry_v {
+	margin: 0;
+	padding: 14px 8px 10px 20px;
+	_padding: 14px 9px 10px 10px;
+	width: 100%;
+	}
+.entry_v_p {
+	float: left;
+	margin: 0;
+	padding: 14px 8px 10px 20px;
+	_padding: 14px 9px 10px 10px;
+	}
+.entry_v_p1 {
+	float: left;
+	margin: 0;
+	padding: 16px 8px 10px 20px;
+	_padding: 14px 9px 10px 10px;
+	}
+.entry_v_img {
+	float: right;
+	}
+.entry_v_img1 {
+	float: right;
+	padding: 10px 4px 14px 20px;
+	_padding: 9px 2px 14px 16px;
+	}
+.entry_v_img img {
+	margin: 5px;
+	}
+
+ul.photo	{
+	margin:6px 0 6px 16px; 
+	_margin:0px 0 0px 8px; 
+	list-style: none;
+	width: 580px;
+	text-align:center;
+	float: left;
+	}
+ul.photo li {
+	float: left;
+	margin: 0 auto;
+	padding:4px 4px 14px 4px;
+	_padding:8px 4px 20px 4px;
+	}
+
+
+/*----------------------------------------------------
+ FOOTER
+----------------------------------------------------*/
+#miss_login {
+	margin: 0 auto;
+	text-align: center;
+	}
+#miss_login_pass {
+	margin: 0 auto;
+	padding: 0 0 20px 0;
+	background: #EEE;
+	border-right: #999 1px solid;
+	border-left: #999 1px solid;
+	width: 469px;
+	}
+
+/*----------------------------------------------------
+ FOOTER
+----------------------------------------------------*/
+#footer {
+	background-image: url(../img/takasaki-higashi/footer.gif);
+	height: 30px;
+	text-align: left;
+	margin: 40px 0 15px;
+	color:#333333;
+	}
+#pagetop {
+	float: right;
+	margin: 30px 68px 0 0;
+	_margin: 30px 34px 0 0;
+	}
+
+
+/*----------------------------------------------------
+ OTHER
+----------------------------------------------------*/
+#nowon {
+	clear: both;
+	margin: 4px auto;
+	padding: 0;
+	width: 82%; 
+	text-align: right;
+	}
+	
+	
+/*----------------------------------------------------
+ toiawase link
+----------------------------------------------------*/
+
+.toiawase {
+color:#CC0000;
+text-decoration:underline;
+vertical-align:top;
+padding:0 0 14px 20px;
+	
+	}
+
+.toiawase2 {
+color:#CC0000;
+text-decoration:underline;
+vertical-align:top;
+padding:0;
+	
+	}
+	
+	
+div.baloon {
+   font-size: 11px;
+   color: #900;
+   position: absolute;
+   padding-left: 5px;
+   background: url("../img/baloon.gif") no-repeat top left;
+   z-index: 1;
+}
+
+div.baloon a {
+   color: blue;
+   text-decoration: none;
+   padding: 2px;
+   margin-right: 2px;
+}
+
+div.baloon a:hover {
+   background-color: #eef;
+}
+
+div.baloon div {
+   background: url("../img/baloon_right.gif") no-repeat top right;
+   padding: 7px 7px 14px 0;
+   white-space: nowrap;
+}
+

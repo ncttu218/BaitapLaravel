@@ -1,0 +1,9 @@
+RewriteEngine On
+
+#server
+#RewriteBase /hcBbs/home/tokyochuo
+
+#local
+RewriteBase /hcBbs/hcBbs/home/tokyochuo
+
+RewriteRule ^blockBlog(..).(......).html blockBlog.php?shop=$1&number=$2 [QSA]

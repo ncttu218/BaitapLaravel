@@ -1,0 +1,5 @@
+[migrations]
+SQL情報を格納するディレクトリ
+
+[seeds/DatabaseSeeder.php]
+サンプルデータを挿入する為のデータを用意

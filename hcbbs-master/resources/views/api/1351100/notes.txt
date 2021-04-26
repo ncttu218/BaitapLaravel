@@ -1,0 +1,13 @@
+緊急掲示板
+https://cgi3-aws.hondanet.co.jp/hcBbs/api/emergency-bulletin/index?hansha_code=1351100&show_type=json&page_num=1&content_length=20
+http://cgi3-aws.hondanet.co.jp/hcBbs/api/emergency-bulletin/detail?hansha_code=1351100&page_num=5
+
+店舗ブログランキング
+http://cgi3-aws.hondanet.co.jp/hcBbs/api/infobbs/ranking?hansha_code=1351100&show_limit_num=8&shop_exclusion=97
+http://cgi3-aws.hondanet.co.jp/hcBbs/api/infobbs/ranking?hansha_code=1351100&show_limit_num=8&shop_exclusion=97&show_type=json&content_length=20
+
+店舗ブログ一覧
+http://cgi3-aws.hondanet.co.jp/hcBbs/api/infobbs/blog?hansha_code=1351100&page_num=5&shop_exclusion=97
+
+Honda Cars 埼玉南のイベント情報
+http://cgi3-aws.hondanet.co.jp/hcBbs/api/infobbs/blog?hansha_code=1351100&page_num=12&shop=97&view_style=_info_saimina

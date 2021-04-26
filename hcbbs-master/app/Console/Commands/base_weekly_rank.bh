@@ -1,0 +1,1 @@
+php /home/web.hondanet.co.jp/vsites/laravel/hcbbs/artisan ranking:base-weekly;

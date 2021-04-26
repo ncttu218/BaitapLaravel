@@ -1,0 +1,15 @@
+/node_modules
+.buildpath
+.project
+.settings
+.metadata/
+.idea/
+storage/upload/
+storage/
+hcBbs/data/
+.hcbbs.backup
+/vendor
+/nbproject/private/
+/tests
+hcbbs.backup
+.env
